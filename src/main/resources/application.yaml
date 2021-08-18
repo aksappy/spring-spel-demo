@@ -1,0 +1,2 @@
+spring.flyway.enabled: '#{"${env:false}".equals("dev")? "true": "false"}'
+debug: true
